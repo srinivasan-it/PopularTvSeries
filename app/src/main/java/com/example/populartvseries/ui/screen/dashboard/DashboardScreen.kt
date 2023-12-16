@@ -101,7 +101,7 @@ fun PopularSeriesTopAppBar(
         actions = {
             IconButton(onClick = {
                 snackbarCoroutineScope.launch {
-//                    scaffoldState.snackbarHostState.showSnackbar("TODO implement search")
+//                    scaffoldState.snackbarHostState.showSnackbar("")
                 }
             }) {
                 Icon(Icons.Filled.Search, contentDescription = "Search series")
